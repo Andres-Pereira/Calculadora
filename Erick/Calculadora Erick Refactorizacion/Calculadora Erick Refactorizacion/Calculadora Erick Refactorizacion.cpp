@@ -7,10 +7,17 @@ using namespace std;
 
 int main()
 {
-	char operacion; //1) Uncommunicative Name -- Refactorizacion: Op->Operacion
-	int numero1, numero2, respuesta; //2) Excessively short identifiers -- Refactorizacion: n1->Numero1 n2->Numero2 r->Respuest
+	//char op; 1) Uncommunicative Name -- Refactorizacion: Op->Operacion
+	char operacion;
+	//int n1, n2, r; 2) Excessively short identifiers -- Refactorizacion: n1->Numero1 n2->Numero2 r->Respuest
+	int numero1, numero2, respuesta; 
 	do {
-		//3) Uncontrolled side effects -- Refactorizacion: Cambiar el estilo de compilacion, aumentar numeros y seniales de compilacion
+		/*cout << "\n" << endl;
+		cout << "Suma" << endl;
+		cout << "Resta" << endl;
+		cout << "Multiplicacion" << endl;
+		cout << "Division" << endl;
+		//3) Uncontrolled side effects -- Refactorizacion: Cambiar el estilo de compilacion, aumentar numeros y seniales de compilacion*/
 
 		cout << "\n" << endl;
 		cout << "1.- Suma" << endl;
@@ -32,7 +39,6 @@ int main()
 		switch (operacion) {
 		case '1':
 			// 5) Duplicated code: -- Refactorizacion: El ingreso de los numeros se ingresaran antes del switch
-
 			respuesta = numero1 + numero2;
 			cout << "\n   " << numero1 << " + " << numero2 << " = " << respuesta;
 			break;
@@ -48,7 +54,8 @@ int main()
 			break;
 
 		case '4':
-			if (numero2 != 0) //If para controlar el denomidor 0 de la division // 4) Little comments -- Refactorizacion: Se aumento un comentario para indicar la funcion del if
+			//if (numero2 != 0) // 4) Little comments -- Refactorizacion: Se aumento un comentario para indicar la funcion del if
+			if (numero2 != 0)//If para controlar el denomidor 0 de la division
 			{
 				respuesta = numero1 / numero2;
 				cout << "\n   " << numero1 << " / " << numero2 << " = " << respuesta;
