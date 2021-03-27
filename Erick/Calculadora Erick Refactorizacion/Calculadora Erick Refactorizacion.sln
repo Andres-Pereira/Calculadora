@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculadora Erick Refactorizacion", "Calculadora Erick Refactorizacion\Calculadora Erick Refactorizacion.vcxproj", "{3BB5F541-E00B-4C15-BB2B-CFEA65067830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Debug|x64.ActiveCfg = Debug|x64
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Debug|x64.Build.0 = Debug|x64
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Debug|x86.Build.0 = Debug|Win32
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Release|x64.ActiveCfg = Release|x64
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Release|x64.Build.0 = Release|x64
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Release|x86.ActiveCfg = Release|Win32
+		{3BB5F541-E00B-4C15-BB2B-CFEA65067830}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32411E8F-281C-4A11-B19B-3340FD7866DF}
+	EndGlobalSection
+EndGlobal
